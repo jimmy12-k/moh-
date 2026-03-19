@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>تعلم الحلاقة من الصفر | ياسين الحلاق</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    :root {
+      --primary: #0d1b2a;
+      --secondary: #1b263b;
+      --accent: #e63946;
+      --light: #f4f4f9;
+      --text: #edf2f4;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--text);
+      min-height: 100vh;
+      padding: 20px 10px;
+    }
+    header {
+      text-align: center;
+      padding: 30px 15px;
+      background: rgba(0,0,0,0.4);
+      border-radius: 16px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      color: var(--accent);
+      margin-bottom: 10px;
+      text-shadow: 0 3px 10px rgba(230,57,70,0.6);
+    }
+    header p {
+      font-size: 1.3rem;
+      opacity: 0.9;
+    }
+    .developer {
+      font-weight: bold;
+      color: #ffd60a;
+      font-size: 1.4rem;
+      margin: 15px 0;
+      padding: 10px 20px;
+      background: rgba(255,214,10,0.15);
+      border-radius: 50px;
+      display: inline-block;
+      border: 2px solid #ffd60a;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .intro {
+      background: rgba(27,38,59,0.6);
+      padding: 25px;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      line-height: 1.7;
+      border: 1px solid rgba(230,57,70,0.3);
+    }
+    h2 {
+      color: var(--accent);
+      margin: 40px 0 20px;
+      font-size: 2.1rem;
+      text-align: center;
+      position: relative;
+    }
+    h2::after {
+      content: '';
+      width: 120px;
+      height: 4px;
+      background: var(--accent);
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 2px;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 25px;
+      margin: 30px 0;
+    }
+    .video-card {
+      background: rgba(27,38,59,0.7);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+      transition: all 0.35s ease;
+      border: 1px solid rgba(230,57,70,0.2);
+    }
+    .video-card:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 15px 40px rgba(230,57,70,0.25);
+      border-color: var(--accent);
+    }
+    .video-card iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+    }
+    .video-info {
+      padding: 18px;
+    }
+    .video-info h3 {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      color: #ffd60a;
+    }
+    .video-info p {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      line-height: 1.5;
+    }
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 30px;
+      background: rgba(0,0,0,0.5);
+      border-radius: 16px;
+      font-size: 1.1rem;
+    }
+    .social {
+      margin-top: 20px;
+    }
+    .social a {
+      color: var(--text);
+      font-size: 1.8rem;
+      margin: 0 15px;
+      transition: 0.3s;
+    }
+    .social a:hover {
+      color: var(--accent);
+      transform: scale(1.2);
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.2rem; }
+      .video-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>تعلم الحلاقة من الصفر إلى الاحتراف</h1>
+    <p>دروس عربية مبسطة ومفصلة للمبتدئين مع أفضل الفيديوهات</p>
+    <div class="developer">المطور والمدرب: ياسين الحلاق</div>
+  </header>
+
+  <div class="container">
+
+    <div class="intro">
+      <p>مرحباً بك في أفضل منصة عربية لتعليم مهنة الحلاقة الرجالية من الصفر. هنا تجد دروساً منظمة تبدأ من الأساسيات (مسك المقص والماكينة، التدريج، كسر الصفر، الموس، اللحية...) وتصل إلى القصات الحديثة والاحترافية. شاهد الفيديوهات بالترتيب وطبّق خطوة بخطوة.</p>
+      <p><strong>نصيحة ذهبية:</strong> ابدأ بالتدريب على مانيكان (رأس تدريب) قبل الزبائن الحقيقيين.</p>
+    </div>
+
+    <h2>الدروس الأساسية للمبتدئين</h2>
+    <div class="video-grid">
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/uThFWjalr30" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>تعليم حلاقة صفر مدرج كلاسيكي خطوة بخطوة</h3>
+          <p>أهم درس للمبتدئين — شرح واضح جداً لتدريج الصفر الكلاسيكي</p>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/bkedgy9Ga2c" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>أسهل طريقة لتدريج الشعر (Perfect Skin Fade)</h3>
+          <p>طريقة حديثة ومبسطة لكسر الصفر والتدريج الاحترافي</p>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/10uCoWtaCXA" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>أساسيات قصة ميد فيد من الصفر</h3>
+          <p>شرح سريع ومفصل لأشهر قصة حالياً</p>
+        </div>
+      </div>
+
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/aZS_dlRnT-0" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>قص الشعر بالمقص والمشط خطوة بخطوة</h3>
+          <p>أساسيات استخدام المقص — ضروري للكلاسيكي والتسريحات الناعمة</p>
+        </div>
+      </div>
+
+    </div>
+
+    <h2>كورس كامل موصى به (اختياري - متقدم)</h2>
+    <div class="video-grid">
+      <div class="video-card" style="grid-column: 1 / -1; max-width: 800px; margin: 0 auto;">
+        <iframe src="https://www.youtube.com/embed/videoseries?list=PLHQkMzmCPpsCBUE8xtoDaCimvWbLX9Hpk" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>كورس كامل لتعليم الحلاقة من الصفر للاحتراف – الكوافير أبو صاصا</h3>
+          <p>أكثر من 130 فيديو مرتبة من البداية حتى الاحتراف – يفضل متابعته بعد إتقان الأساسيات أعلاه</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>تم تطوير هذه المنصة التعليمية بواسطة <span class="developer">ياسين الحلاق</span></p>
+    <p>جميع الحقوق محفوظة © 2026 – للتواصل والاستفسارات: yassine.elhala9@gmail.com</p>
+    
+    <div class="social">
+      <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://t.me/yassinebarber" target="_blank"><i class="fab fa-telegram"></i></a>
+    </div>
+  </footer>
+
+</body>
+  </html>
